@@ -217,3 +217,47 @@
   display: flex;
   gap: 8px;
 }
+
+.btn-whats {
+  position: fixed;
+  bottom: 14px;
+  right: 24px;
+  z-index: 99;
+
+  img {
+    max-width: 70px;
+    transition: transform 0.4s;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+
+.btn-whats .tooltip {
+  visibility: hidden;
+  position: absolute;
+  width: 150px;
+  top: 17px;
+  left: -158px;
+  padding: 6px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: $black-normal;
+  color: $white-normal;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.btn-whats:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-whats {
+    img {
+      max-width: 64px;
+    }
+  }
+}
