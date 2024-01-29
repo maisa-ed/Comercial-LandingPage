@@ -196,3 +196,9 @@
   background-color: #151515;
   z-index: 99;
 }
+
+@media screen and (max-width: 768px) {
+  .img-services {
+    flex-direction: column;
+  }
+}
