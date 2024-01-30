@@ -318,6 +318,11 @@ i {
     max-width: 64px;
   }
 }
+.typed-cursor {
+  font-size: 1.5em;
+  animation: typing 0.8s infinite;
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
   width: 100%;
