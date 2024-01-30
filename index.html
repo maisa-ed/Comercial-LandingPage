@@ -43,11 +43,18 @@
             </a>
           </div>
 
-          <div class="header-logo" data-aos="fade-up">
-            <img src="assets/logo.png" alt="Logo Wings" style="width: 250px" />
+          <div class="header-logo" data-aos="fade-up" data-aos-delay="500">
+            <img
+              src="assets/logo.png"
+              alt="Logo Wings"
+              style="width: 250px"
+              data-aos="flip-up"
+              data-aos-delay="300"
+              data-aos-duration="1500"
+            />
           </div>
 
-          <div>
+          <div data-aos="fade-down">
             <a
               target="_blank"
               class="header-button"
@@ -58,7 +65,7 @@
           </div>
         </nav>
 
-        <main class="hero container">
+        <main class="hero container" data-aos="fade-up" data-aos-delay="500">
           <h1 id="typed-text"></h1>
           <p>Faça seu pedido, nossos motoboys estão a caminho.</p>
           <a href="#" class="button-contact" target="_blank">
@@ -69,11 +76,15 @@
     </div>
     <section class="about">
       <div class="container about-content">
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="100">
           <img src="assets/varias.svg" alt="Sobre entregador" />
         </div>
 
-        <div class="about-description">
+        <div
+          class="about-description"
+          data-aos="zoom-out-left"
+          data-aos-delay="200"
+        >
           <h2>Sobre</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
@@ -100,21 +111,21 @@
       </div>
 
       <section class="img-services">
-        <div class="produto">
+        <div class="produto" data-aos="fade-up" data-aos-delay="150">
           <img src="assets/servico1.svg" alt="Serviço 1" />
           <div class="prod-info">
             <strong>teste</strong>
           </div>
         </div>
 
-        <div class="produto">
+        <div class="produto" data-aos="fade-up" data-aos-delay="250">
           <img src="assets/servico2.svg" alt="Serviço 2" />
           <div class="prod-info">
             <strong>teste</strong>
           </div>
         </div>
 
-        <div class="produto">
+        <div class="produto" data-aos="fade-up" data-aos-delay="350">
           <img src="assets/servico3.svg" alt="Serviço 3" />
           <div class="prod-info">
             <strong>teste</strong>
@@ -157,6 +168,8 @@
       href="https://api.whatsapp.com/send?phone=47992617111&text=%20Quero%20fazer%20parte%20da%20Wings!"
       class="btn-whats"
       target="_blank"
+      data-aos="zoom-in-up"
+      data-aos-delay="400"
     >
       <img src="assets/whatsapp.svg" alt="whatsapp" />
       <span class="tooltip">Entre em contato</span>
